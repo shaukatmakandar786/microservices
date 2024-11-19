@@ -1,13 +1,11 @@
+version: "2.3"
 services:
   accounts:
     image: "shaukatmakandar786/accounts:s4"
     container_name: accounts-ms
     ports:
       - "8080:8080"
-    deploy:
-      resources:
-        limits:
-          memory: 700m
+    mem_limit: 700m
     networks:
       - eazybank
   loans:
@@ -15,10 +13,7 @@ services:
     container_name: loans-ms
     ports:
       - "8090:8090"
-    deploy:
-      resources:
-        limits:
-          memory: 700m
+    mem_limit: 700m
     networks:
       - eazybank
   cards:
@@ -26,12 +21,9 @@ services:
     container_name: cards-ms
     ports:
       - "9000:9000"
-    deploy:
-      resources:
-        limits:
-          memory: 700m
+    mem_limit: 700m
     networks:
       - eazybank
 networks:
   eazybank:
-    driver: "bridge"
+    driver: bridge
