@@ -5,7 +5,10 @@ services:
     container_name: accounts-ms
     ports:
       - "8080:8080"
-    mem_limit: 700m
+    deploy:
+      resources:
+        limits:
+          memory: 700m
     networks:
       - eazybank
   loans:
@@ -13,7 +16,10 @@ services:
     container_name: loans-ms
     ports:
       - "8090:8090"
-    mem_limit: 700m
+    deploy:
+      resources:
+        limits:
+          memory: 700m
     networks:
       - eazybank
   cards:
@@ -21,7 +27,10 @@ services:
     container_name: cards-ms
     ports:
       - "9000:9000"
-    mem_limit: 700m
+    deploy:
+      resources:
+        limits:
+          memory: 700m
     networks:
       - eazybank
 networks:
