@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: Api-Gateway-Service
+    cloud:
+        gateway:
+          routes:
+            - id: api-1
+              uri: http://localhost:8081
+              predicates:
+                - Path= /welcome
+            - id: api-2
+              uri: http://localhost:9091
+              predicates:
+                - Path=/greet
+server:
+    port: 3333
+
+
+
