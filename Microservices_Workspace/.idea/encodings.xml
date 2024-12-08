@@ -10,5 +10,9 @@
     <file url="file://$PROJECT_DIR$/05_Greet_Service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_Api_Gateway_Service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06_Api_Gateway_Service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_config_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07_config_server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08_Cloud_Config_Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08_Cloud_Config_Client/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/05_Greet_Service/pom.xml" />
         <option value="$PROJECT_DIR$/06_Api_Geteway_Service/pom.xml" />
         <option value="$PROJECT_DIR$/06_Api_Gateway_Service/pom.xml" />
+        <option value="$PROJECT_DIR$/07_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/08_Cloud_Config_Client/pom.xml" />
       </list>
     </option>
   </component>

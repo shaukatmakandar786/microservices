@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: welcome
+    config:
+        import: optional:configserver:http://localhost:9093
+
+server:
+    port: 9094
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/04_Welcome_Service/04_Welcome_Service.iml" filepath="$PROJECT_DIR$/04_Welcome_Service/04_Welcome_Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_Greet_Service/05_Greet_Service.iml" filepath="$PROJECT_DIR$/05_Greet_Service/05_Greet_Service.iml" />
       <module fileurl="file://$PROJECT_DIR$/06_Api_Gateway_Service/06_Api_Geteway_Service.iml" filepath="$PROJECT_DIR$/06_Api_Gateway_Service/06_Api_Geteway_Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_config_server/07_config_server.iml" filepath="$PROJECT_DIR$/07_config_server/07_config_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_Cloud_Config_Client/08_Cloud_Config_Client.iml" filepath="$PROJECT_DIR$/08_Cloud_Config_Client/08_Cloud_Config_Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices_Workspace.iml" filepath="$PROJECT_DIR$/.idea/Microservices_Workspace.iml" />
     </modules>
   </component>
